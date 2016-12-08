@@ -1,0 +1,1726 @@
+Revision: 984
+Author: arupadhy
+Date: 05 November 2015 14:17:20
+Message:
+Ergonomic Changes according to latest DMI Picture Model.
+----
+Modified : /branches/CL345_R2/src/Forms/DmiAwsTpws_25.xml
+
+Revision: 976
+Author: mahpatel
+Date: 05 November 2015 10:14:20
+Message:
+MP 05-Nov-15:
+- New Safe component added
+- Logical name updated.
+- Safecolor name changed.
+----
+Modified : /branches/CL345_R2/src/CL345_LogicalNames.xml
+Added : /branches/CL345_R2/src/Safety/Learning/learning_004_SafeComponent4.xml
+Modified : /branches/CL345_R2/src/Safety/SafeColors.xml
+Modified : /branches/CL345_R2/src/Safety/SafeComponents.xml
+Modified : /branches/CL345_R2/src/Templates/Master2.xml
+
+Revision: 974
+Author: arupadhy
+Date: 05 November 2015 09:53:37
+Message:
+Ergonomic Changes related to DMI in line with latest style guide and picture model.
+----
+Modified : /branches/CL345_R2/src/CL345_StringIDs.xml
+Modified : /branches/CL345_R2/src/Forms/DmiAwsTpws_25.xml
+Modified : /branches/CL345_R2/src/Forms/DmiDriverId_21.xml
+Modified : /branches/CL345_R2/src/Forms/DmiLevel_20.xml
+Modified : /branches/CL345_R2/src/Forms/DmiTrnRunNum_19.xml
+
+Revision: 972
+Author: dbhatt
+Date: 04 November 2015 19:09:40
+Message:
+Modified MTPE code after GDB V9.5.
+----
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_CCUO.vcdl
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/ethInputs_T2_frame.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/ethInputs_T3_frame.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/ethInputs_T4_frame.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/startUp_Ini_frame.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/incl/usertypes.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/ipt/tssp/tssp_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO.nsd
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO_Mvb1.map
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/DLU/tcms_data.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/mtpe_config/mtpe_config_01.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/safe_components/sc_000_SafeComponent0.png
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/safe_components/sc_000_SafeComponent0.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_keytable.crc
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_keytable.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_png.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/export/TDS_CORE_CFG_1042.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/export/tdsinfrastruct.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/DLU/tcms_data.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/sp/mtpe_config/mtpe_config_01.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/sp/safe_components/sc_000_SafeComponent0.png
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/sp/safe_components/sc_000_SafeComponent0.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_keytable.crc
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_keytable.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_png.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/export/TDS_CORE_CFG_1042.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/export/tdsinfrastruct.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/c539470c-a9bc-4917-8835-203aff33d60d.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/types.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/logfile.txt
+Modified : /branches/CL345_R2/tools/CCU-O/src/mtpe.log
+Modified : /branches/CL345_R2/tools/CCU-O/src/proj_cfg/tds_proj_tool/mtpe2tds.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/project.tre
+
+Revision: 969
+Author: arupadhy
+Date: 03 November 2015 15:12:41
+Message:
+Changes done according to new DMI picture model.
+----
+Modified : /branches/CL345_R2/src/CL345_StringIDs.xml
+Modified : /branches/CL345_R2/src/Forms/DmiAwsTpws_25.xml
+Modified : /branches/CL345_R2/src/Forms/DmiTrainData_24.xml
+Added : /branches/CL345_R2/src/Images/Dmi_Aws_Indicator_NewNormal_208x208.png
+
+Revision: 968
+Author: mahpatel
+Date: 03 November 2015 15:01:46
+Message:
+MP 03-Nov-15:
+- NonMatchingRGBvalue set to new value (-328966).
+- New Safe Signal and logical name added according to new ICD.
+- New sage color added (White)
+----
+Modified : /branches/CL345_R2/src/CL345_LogicalNames.xml
+Modified : /branches/CL345_R2/src/Safety/SafeColors.xml
+Modified : /branches/CL345_R2/src/Safety/SafeComponents.xml
+Modified : /branches/CL345_R2/src/Templates/Master2.xml
+Modified : /branches/CL345_R2/src/Safety/SafetySettings.xml
+
+Revision: 965
+Author: mbheda
+Date: 02 November 2015 13:26:50
+Message:
+Modified for Door status values.
+----
+Modified : /branches/CL345_R2/docs/TCMS HMI Test Specification_R2.xlsm
+
+Revision: 961
+Author: arupadhy
+Date: 30 October 2015 10:15:35
+Message:
+Merged the changes
+----
+Modified : /branches/CL345_R2/src/Templates/Master2.xml
+
+Revision: 957
+Author: arupadhy
+Date: 30 October 2015 09:57:31
+Message:
+Fixes for some of the DMI Defects.
+----
+Modified : /branches/CL345_R2/src/Templates/Master2.xml
+Modified : /branches/CL345_R2/src/CL345_StringIDs.xml
+Modified : /branches/CL345_R2/src/Forms/DmiAwsTpws_25.xml
+Modified : /branches/CL345_R2/src/Forms/DmiLevel_20.xml
+Added : /branches/CL345_R2/src/Images/dmi_EmerSerBraInt_68x30.png
+Modified : /branches/CL345_R2/src/Scripts/dmiButtonAttribEval.js
+
+Revision: 956
+Author: mahpatel
+Date: 30 October 2015 09:55:20
+Message:
+MP 30-Oct-15: Safearea calculated for Speedo meter.
+- Page tag learning done for new forms.
+
+----
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/safe_components/sc_000_SafeComponent0.png
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/safe_components/sc_000_SafeComponent0.xml
+Added : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/safe_components/sc_003_SafeComponent3.png
+Added : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/safe_components/sc_003_SafeComponent3.xml
+
+Revision: 955
+Author: mahpatel
+Date: 30 October 2015 09:53:10
+Message:
+MP 30-Oct-15:
+- New Safe colors are added for Speedo meter.
+- Safearea calculated for Speedo meter.
+- Learning done for Sppedo meter.
+
+----
+Modified : /branches/CL345_R2/src/Safety/SafeColors.xml
+Modified : /branches/CL345_R2/src/Safety/SafeComponents.xml
+Modified : /branches/CL345_R2/src/Templates/Master2.xml
+Added : /branches/CL345_R2/src/Safety/Learning/learning_003_SafeComponent3.xml
+
+Revision: 953
+Author: mahpatel
+Date: 28 October 2015 17:36:04
+Message:
+MP 28-Oct-15:
+- CRC list arranged in sorting order.
+----
+Modified : /branches/CL345_R2/src/Safety/SafeComponents.xml
+
+Revision: 952
+Author: dbhatt
+Date: 28 October 2015 15:53:54
+Message:
+Updated after Integration of Safe Speedo. Also have added TDS telegrams as source & sink both.
+----
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_CCUO.vcdl
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/ipt/tssp/tssp_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO.nsd
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO_Mvb1.map
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/DLU/tcms_data.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/safe_components/sc_000_SafeComponent0.png
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/safe_components/sc_000_SafeComponent0.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_keytable.crc
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_keytable.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_png.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/export/TDS_CORE_CFG_1042.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/export/tdsinfrastruct.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/DLU/tcms_data.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/sp/safe_components/sc_000_SafeComponent0.png
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/sp/safe_components/sc_000_SafeComponent0.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_keytable.crc
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_keytable.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_png.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/export/TDS_CORE_CFG_1042.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/export/tdsinfrastruct.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/logfile.txt
+Modified : /branches/CL345_R2/tools/CCU-O/src/mtpe.log
+Modified : /branches/CL345_R2/tools/CCU-O/src/proj_cfg/tds_proj_tool/mtpe2tds.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/project.tre
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/iec_math_float.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/iec_math_int.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/iec_math_safe.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/incl/iec_math_float.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_device_id/ifcfg-eth0
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_device_id/ifcfg-eth1
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_device_id/ifcfg-eth0
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_device_id/ifcfg-eth1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/9becffc5-68b6-4a92-a19f-02db47112a12.mtx
+
+Revision: 951
+Author: dbhatt
+Date: 28 October 2015 15:52:42
+Message:
+Removed unnecessary backup files.
+----
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/gen/ccode.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/gen/css_capsule.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/gen/iec_math_float.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/gen/iec_math_int.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/gen/iec_math_safe.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/gen/iec_nvram.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/gen/iec_pack_unpack.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/gen/iec_strings.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/gen/iec_timers.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/gen/mitraclib.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/gen/typeconv.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/gen/ethInputs_T2_frame.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/gen/ethInputs_T2_io.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/gen/ethInputs_T3_frame.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/gen/ethInputs_T3_io.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/gen/ethInputs_T4_frame.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/gen/ethInputs_T4_io.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/gen/init.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/gen/startUp_Ini_frame.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/gen/startUp_Ini_io.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/gen/tnmreg.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/device_cfg/gen/CL345_DMS1_CCUO_dc0000
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/device_cfg/gen/CL345_DMS1_CCUO_dc0000.map
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/device_cfg/gen/dev_entry.d
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/export/CL345_DMS1_CCUO_dc0000.dl2
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/export/CL345_DMS1_CCUO_dc0000.out
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/export/CL345_DMS1_CCUO_dc0000_debug.out
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/export/css_ini.dl2
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/export/ipt_config.dl2
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/export/objects.dl2
+Deleted : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/export/tssp_config.dl2
+Deleted : /branches/CL345_R2/tools/CCU-O/src/HMISIG/config/TDS_CORE_CFG.ba1
+Deleted : /branches/CL345_R2/tools/CCU-O/src/HMISIG/config/TDS_CORE_FW.ba1
+Deleted : /branches/CL345_R2/tools/CCU-O/src/HMISIG/config/TDS_DIAG_CFG.ba1
+Deleted : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_device_id/safe_device_identity_.xml
+Deleted : /branches/CL345_R2/tools/CCU-O/src/HMITMS/config/TDS_CORE_CFG.ba1
+Deleted : /branches/CL345_R2/tools/CCU-O/src/HMITMS/config/TDS_CORE_CFG.ba2
+Deleted : /branches/CL345_R2/tools/CCU-O/src/HMITMS/config/TDS_CORE_CFG.ba3
+Deleted : /branches/CL345_R2/tools/CCU-O/src/HMITMS/config/TDS_CORE_FW.ba1
+Deleted : /branches/CL345_R2/tools/CCU-O/src/HMITMS/config/TDS_CORE_FW.ba2
+Deleted : /branches/CL345_R2/tools/CCU-O/src/HMITMS/config/TDS_CORE_FW.ba3
+Deleted : /branches/CL345_R2/tools/CCU-O/src/HMITMS/config/TDS_DIAG_CFG.ba1
+Deleted : /branches/CL345_R2/tools/CCU-O/src/HMITMS/config/TDS_DIAG_CFG.ba2
+Deleted : /branches/CL345_R2/tools/CCU-O/src/HMITMS/config/TDS_DIAG_CFG.ba3
+Deleted : /branches/CL345_R2/tools/CCU-O/src/_mt/backup
+
+Revision: 949
+Author: mahpatel
+Date: 28 October 2015 14:53:44
+Message:
+MP 28-Oct-15:
+- New CRC updated for the DMI speedo screens.
+----
+Modified : /branches/CL345_R2/src/Safety/SafeComponents.xml
+
+Revision: 947
+Author: mahpatel
+Date: 28 October 2015 14:12:14
+Message:
+MP 27-Oct-15:
+- New CRC updated for the DMI speedo screens.
+- Speedo properties set according to requirement.
+----
+Modified : /branches/CL345_R2/src/Safety/SafeComponents.xml
+Modified : /branches/CL345_R2/src/Templates/Master2.xml
+
+Revision: 943
+Author: hkansagra
+Date: 28 October 2015 11:51:13
+Message:
+HVAC Saloon scripts for base objects has been validate and corrected.
+----
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_DMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_DMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_MS1AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_MS2BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_MS3AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_MS3BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_PMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_PMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_TSWBA.xml
+
+Revision: 942
+Author: hkansagra
+Date: 28 October 2015 11:49:25
+Message:
+HVAC Vehicle, Maintenance View Vehicle and Propulsion Vehicle files updated as per new vehicle sets.
+
+----
+Modified : /branches/CL345_R2/src/CarTemplate/cartemplates_nexgen.ctp
+
+Revision: 941
+Author: hkansagra
+Date: 28 October 2015 11:47:53
+Message:
+HVAC Vehicle types has been changed as per current requirements. Removed unused vehicles.
+----
+Added : /branches/CL345_R2/src/CarTemplate/HVAC_DMSAB.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVAC_DMSBA.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/HVAC_DTS1BA.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/HVAC_DTS2BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVAC_MS1AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVAC_MS2BA.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVAC_MS3AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVAC_MS3BA.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/HVAC_MS3WAB.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/HVAC_PMS1AB.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/HVAC_PMS2BA.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVAC_PMSAB.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVAC_PMSBA.xml
+
+Revision: 940
+Author: hkansagra
+Date: 28 October 2015 11:45:14
+Message:
+Maintenance View Vehicle types has been changed as per current requirements. Removed unused vehicles.
+----
+Added : /branches/CL345_R2/src/CarTemplate/MaintenanceView_MS1AB.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/MaintenanceView_MS1BA.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/MaintenanceView_MS2AB.xml
+Added : /branches/CL345_R2/src/CarTemplate/MaintenanceView_MS2BA.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/MaintenanceView_PMS2BA.xml
+Added : /branches/CL345_R2/src/CarTemplate/MaintenanceView_PMSAB.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/MaintenanceView_TSWAB.xml
+Added : /branches/CL345_R2/src/CarTemplate/MaintenanceView_TSWBA.xml
+
+Revision: 939
+Author: hkansagra
+Date: 28 October 2015 10:17:00
+Message:
+Propulsion Vehicle types has been changed as per current requirements. Removed unused vehicles.
+----
+Added : /branches/CL345_R2/src/CarTemplate/Propulsion_DMSAB.xml
+Added : /branches/CL345_R2/src/CarTemplate/Propulsion_DMSBA.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/Propulsion_DTS1BA.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/Propulsion_DTS2BA.xml
+Added : /branches/CL345_R2/src/CarTemplate/Propulsion_MS3AB.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/Propulsion_MS3WAB.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/Propulsion_PMS1AB.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/Propulsion_PMS2BA.xml
+Added : /branches/CL345_R2/src/CarTemplate/Propulsion_PMSAB.xml
+Added : /branches/CL345_R2/src/CarTemplate/Propulsion_PMSBA.xml
+
+Revision: 938
+Author: arupadhy
+Date: 28 October 2015 10:10:13
+Message:
+Added new section for DMI Screens.
+
+Added 8 DMI Screens with their description, only 1 Screen is left.
+----
+Modified : /branches/CL345_R2/docs/3EER400020-9818_HMI_Design_Document.docx
+
+Revision: 937
+Author: mbheda
+Date: 27 October 2015 17:41:44
+Message:
+DMI Test specification R1.1
+----
+Added : /branches/CL345_R2/docs/TCMS DMI Test Specification.xlsm
+
+Revision: 936
+Author: mbheda
+Date: 27 October 2015 17:39:55
+Message:
+HMI Test specification for R2
+----
+Added : /branches/CL345_R2/docs/TCMS HMI Test Specification_R2.xlsm
+
+Revision: 935
+Author: mahpatel
+Date: 27 October 2015 17:20:47
+Message:
+MP 27-Oct-15: Committed the Tag changes for Templates/Master1.xml.
+----
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+
+Revision: 934
+Author: mahpatel
+Date: 27 October 2015 17:14:26
+Message:
+MP 27-Oct-15: Committed the Tag changes for Templates/Master1.xml.
+----
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+
+Revision: 933
+Author: hkansagra
+Date: 27 October 2015 10:48:03
+Message:
+Added Page Tags for Screen 39,40,43
+----
+Modified : /branches/CL345_R2/src/Safety/SafeComponents.xml
+
+Revision: 932
+Author: mahpatel
+Date: 26 October 2015 17:20:45
+Message:
+MP 26-Oct-15: Crash issue with the Runtime 0.0.0.6 has been resolved. ( By assigning the "HorizontalAlign" property value to LeadingCarToRight).
+----
+Modified : /branches/CL345_R2/src/Forms/MaintBrakeOverview_7.xml
+Modified : /branches/CL345_R2/src/Forms/Maintainer_HVAC_Saloon_43.xml
+
+Revision: 931
+Author: mahpatel
+Date: 26 October 2015 16:16:40
+Message:
+MP 26-Oct-15: Speedo meter changes done according to requirement.
+----
+Modified : /branches/CL345_R2/src/Templates/Master2.xml
+
+Revision: 930
+Author: mahpatel
+Date: 26 October 2015 16:14:44
+Message:
+MP 20-Oct-15: Crash issue with the Runtime 0.0.0.6 has been resolved. ( By assigning the "HorizontalAlign" property value to LeadingCarToRight).
+----
+Modified : /branches/CL345_R2/src/Forms/MaintBrakeOverview_7.xml
+Modified : /branches/CL345_R2/src/Forms/ActiveEventList_8.xml
+Modified : /branches/CL345_R2/src/Forms/CarStatus_12.xml
+Modified : /branches/CL345_R2/src/Forms/DriverActiveEvents_5.xml
+Modified : /branches/CL345_R2/src/Forms/EnterDefect_SC_37.xml
+Modified : /branches/CL345_R2/src/Forms/Event_11.xml
+Modified : /branches/CL345_R2/src/Forms/ExtendedDefect_35.xml
+Modified : /branches/CL345_R2/src/Forms/HVACSystemTests_14.xml
+Modified : /branches/CL345_R2/src/Forms/InhibitDoors_18.xml
+Modified : /branches/CL345_R2/src/Forms/PropulsionOverview_6.xml
+Modified : /branches/CL345_R2/src/Forms/SoftwareStatus_13.xml
+Modified : /branches/CL345_R2/src/Forms/Station_2.xml
+Modified : /branches/CL345_R2/src/Forms/Station_NAC_33.xml
+
+Revision: 929
+Author: hkansagra
+Date: 21 October 2015 11:23:15
+Message:
+Maintainer - HVAC Saloon signals integrated for Saloon Status.
+----
+Modified : /branches/CL345_R2/src/CL345_LogicalNames.xml
+Modified : /branches/CL345_R2/src/CL345_StringIDs.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_DMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_DMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_MS1AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_MS2BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_MS3AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_MS3BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_PMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_PMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_TSWBA.xml
+Modified : /branches/CL345_R2/src/Forms/Maintainer_HVAC_Saloon_43.xml
+
+Revision: 927
+Author: hkansagra
+Date: 20 October 2015 10:52:48
+Message:
+Restored deleted files 
+----
+Added : /branches/CL345_R2/src/CarTemplate/HVAC_DTS1BA.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVAC_DTS2BA.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVAC_MS3WAB.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVAC_PMS1AB.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVAC_PMS2BA.xml
+
+Revision: 926
+Author: hkansagra
+Date: 20 October 2015 10:41:41
+Message:
+Maintainer - Vehicle Types and Names changed as per requirement. Removing unnecessary vehicles
+
+----
+Added : /branches/CL345_R2/src/CarTemplate/HVACSaloon_DMSAB.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVACSaloon_DMSBA.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVACSaloon_MS3AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_MS3BA.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVACSaloon_PMSAB.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVACSaloon_PMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/HVACSaloon_TSWBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/cartemplates_nexgen.ctp
+Deleted : /branches/CL345_R2/src/CarTemplate/HVACSaloon_DTS1BA.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/HVACSaloon_DTS2BA.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/HVACSaloon_MS3WAB.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/HVACSaloon_PMS1AB.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/HVACSaloon_PMS2BA.xml
+
+Revision: 925
+Author: hkansagra
+Date: 20 October 2015 10:34:37
+Message:
+Vehicle Types and Names changed as per requirement. Removing unnecessary vehicles
+----
+Deleted : /branches/CL345_R2/src/CarTemplate/HVAC_DTS1BA.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/HVAC_DTS2BA.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/HVAC_MS3WAB.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/HVAC_PMS1AB.xml
+Deleted : /branches/CL345_R2/src/CarTemplate/HVAC_PMS2BA.xml
+
+Revision: 923
+Author: hkansagra
+Date: 19 October 2015 11:12:20
+Message:
+Maintainer - Added vehicles for HVAC Saloon
+
+----
+Modified : /branches/CL345_R2/src/CarTemplate/cartemplates_nexgen.ctp
+
+Revision: 922
+Author: hkansagra
+Date: 16 October 2015 18:00:21
+Message:
+Maintainer - Added following forms for Maintainer
+1. Maintainer_HVAC_Saloon_43
+2. Maintainer_Light_Test_39
+3. Maintainer_Traction_Test_40
+
+----
+Added : /branches/CL345_R2/src/CarTemplate/HVACSaloon_MS1AB.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVACSaloon_MS2BA.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVACSaloon_MS3BA.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVACSaloon_TSWBA.xml
+Added : /branches/CL345_R2/src/Forms/Maintainer_HVAC_Saloon_43.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVACSaloon_DTS1BA.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVACSaloon_DTS2BA.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVACSaloon_MS3WAB.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVACSaloon_PMS1AB.xml
+Added : /branches/CL345_R2/src/CarTemplate/HVACSaloon_PMS2BA.xml
+Modified : /branches/CL345_R2/src/CL345.hmi
+Added : /branches/CL345_R2/src/Forms/Maintainer_Light_Test_39.xml
+Added : /branches/CL345_R2/src/Forms/Maintainer_Traction_Test_40.xml
+
+Revision: 921
+Author: hkansagra
+Date: 16 October 2015 17:50:11
+Message:
+Maintainer - Added Logical Names and String IDs used in Maintainer screens.
+----
+Modified : /branches/CL345_R2/src/CL345_LogicalNames.xml
+Modified : /branches/CL345_R2/src/CL345_StringIDs.xml
+
+Revision: 920
+Author: hkansagra
+Date: 16 October 2015 17:48:00
+Message:
+Maintainer - Modified maintainer templates as per new picture module.
+----
+Modified : /branches/CL345_R2/src/Templates/Maint.xml
+Modified : /branches/CL345_R2/src/Templates/MntTest.xml
+
+Revision: 918
+Author: mahpatel
+Date: 16 October 2015 16:15:52
+Message:
+MP 16-Oct-15: In Station view, Door status set the default color for zero or invalid value.
+----
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_PMSBA.xml
+
+Revision: 917
+Author: mahpatel
+Date: 16 October 2015 15:04:37
+Message:
+MP 16-Oct-15: In Station view, Door status set the default color for zero or invalid value.
+----
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_DMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_DMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS1AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS1BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS2AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS2BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS3AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS3BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_PMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_TSWAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_TSWBA.xml
+
+Revision: 916
+Author: mahpatel
+Date: 16 October 2015 13:45:48
+Message:
+MP 16-Oct-15: Comments updated for the Door status.
+----
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_PMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_DMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_DMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS1AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS1BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS2AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS2BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS3AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS3BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_PMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_TSWAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_TSWBA.xml
+
+Revision: 915
+Author: mahpatel
+Date: 16 October 2015 12:23:22
+Message:
+MP 16-Oct-15: Door status updated according to DSD.
+
+doorStatus := USINT#1; (* Status :: Unknown*), Light Grey 
+doorStatus := USINT#2; (* Status :: Faulty*), Yellow
+doorStatus := USINT#4; (* Status :: Obstacle detected*), Red or white
+doorStatus := USINT#8; (* Status :: Open *), Red
+doorStatus := USINT#16; (* Status :: Released *), Orange
+doorStatus := USINT#32; (* Status ::  Locked out of service *), Black
+doorStatus := USINT#64; (* Status ::  PED Fault *), Yellow and Blue
+doorStatus := USINT#128; (* Status ::  Closed and Locked*), Blue
+----
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_PMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_DMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_DMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS1AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS1BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS2AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS2BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS3AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS3BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_PMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_TSWAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_TSWBA.xml
+
+Revision: 914
+Author: dbhatt
+Date: 15 October 2015 13:57:21
+Message:
+Config prepared to go in clearcase.
+----
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/DLU/tcms_data.dl2
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_data/sp/mtpe_config/mtpe_config_01.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_data/sp/safe_components/sc_000_SafeComponent0.png
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_data/sp/safe_components/sc_000_SafeComponent0.xml
+Added : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_data/sp/safe_components/sc_001_SafeComponent2.png
+Added : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_data/sp/safe_components/sc_001_SafeComponent2.xml
+Added : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_data/sp/safe_components/sc_002_SafeComponent1.png
+Added : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_data/sp/safe_components/sc_002_SafeComponent1.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_data/sp/sp_config.png
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_data/sp/sp_config.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_data/tcms_data.tar
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_data/tcms_data_keytable.crc
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_data/tcms_data_keytable.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_data/tcms_data_png.tar
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_device_id/hostname
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_device_id/ifcfg-eth0
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_device_id/ifcfg-eth1
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_device_id/safe_device_identity.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_device_id/tcms_device_id.dl2
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_device_id/tcms_device_id_keytable.crc
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_device_id/tcms_device_id_keytable.png
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_device_id/tcms_device_id_keytable.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/ECP-USB/tcms_device_id/tcms_device_id_keytable_pres.png
+Deleted : /branches/CL345_R2/config/Mtpe Simulation/hmisig/config/TDS_CORE_CFG.ba1
+Deleted : /branches/CL345_R2/config/Mtpe Simulation/hmisig/config/TDS_CORE_FW.ba1
+Deleted : /branches/CL345_R2/config/Mtpe Simulation/hmisig/config/TDS_DIAG_CFG.ba1
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/export/TDS_CORE_CFG_1042.dl2
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmisig/export/tdsinfrastruct.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/DLU/tcms_data.dl2
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_data/sp/mtpe_config/mtpe_config_01.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_data/sp/safe_components/sc_000_SafeComponent0.png
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_data/sp/safe_components/sc_000_SafeComponent0.xml
+Added : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_data/sp/safe_components/sc_001_SafeComponent2.png
+Added : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_data/sp/safe_components/sc_001_SafeComponent2.xml
+Added : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_data/sp/safe_components/sc_002_SafeComponent1.png
+Added : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_data/sp/safe_components/sc_002_SafeComponent1.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_data/sp/sp_config.png
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_data/sp/sp_config.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_data/tcms_data.tar
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_data/tcms_data_keytable.crc
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_data/tcms_data_keytable.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_data/tcms_data_png.tar
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_device_id/hostname
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_device_id/ifcfg-eth0
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_device_id/ifcfg-eth1
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_device_id/safe_device_identity.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_device_id/tcms_device_id.dl2
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_device_id/tcms_device_id_keytable.crc
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_device_id/tcms_device_id_keytable.png
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_device_id/tcms_device_id_keytable.xml
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/ECP-USB/tcms_device_id/tcms_device_id_keytable_pres.png
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/export/TDS_CORE_CFG_1042.dl2
+Modified : /branches/CL345_R2/config/Mtpe Simulation/hmitms/export/tdsinfrastruct.xml
+
+Revision: 913
+Author: dbhatt
+Date: 14 October 2015 16:27:14
+Message:
+Changed Mtpe project directory as "D:\Mtpe Simulation\hmitms" to make it possible to build project from any machine.
+----
+Modified : /branches/CL345_R2/src/CL345_ProjectSettings.xml
+
+Revision: 912
+Author: dbhatt
+Date: 12 October 2015 19:29:57
+Message:
+Updated HMI devices with GDB V9.4 and made safety component ID common for HMITMS and HMISIG device to have single application working for both device.
+----
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_CCUO.vcdl
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/ethInputs_T2_frame.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/ethInputs_T3_frame.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/ethInputs_T4_frame.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/startUp_Ini_frame.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/incl/usertypes.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/ipt/tssp/tssp_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO.nsd
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO_Mvb1.map
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/DLU/tcms_data.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/mtpe_config/mtpe_config_01.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_keytable.crc
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_keytable.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_png.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/export/TDS_CORE_CFG_1042.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/export/tdsinfrastruct.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/DLU/tcms_data.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/sp/mtpe_config/mtpe_config_01.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_keytable.crc
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_keytable.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_png.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/export/TDS_CORE_CFG_1042.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/export/tdsinfrastruct.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/c539470c-a9bc-4917-8835-203aff33d60d.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/types.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/logfile.txt
+Modified : /branches/CL345_R2/tools/CCU-O/src/mtpe.log
+Modified : /branches/CL345_R2/tools/CCU-O/src/proj_cfg/tds_proj_tool/mtpe2tds.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_device_id/ifcfg-eth0
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_device_id/ifcfg-eth1
+Added : /branches/CL345_R2/tools/CCU-O/src/_mt/9becffc5-68b6-4a92-a19f-02db47112a12.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/makefile
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/IEC61131/usr_1131_def
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/appl_cfg/app_appl_data.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/appl_cfg/app_copy_list.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/appl_cfg/app_dep.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/appl_cfg/app_dyn_memory.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/appl_cfg/app_entry.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/appl_cfg/app_init_data.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/appl_cfg/app_ptr_tab.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/appl_cfg/app_sdt_map.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/appl_cfg/app_tasks.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/appl_cfg/app_test_telegram.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/appl_cfg/app_vxsym.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/appl_cfg/appl_def
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/ethInputs_T2_frame.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/ethInputs_T2_io.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/ethInputs_T2_io.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/ethInputs_T3_frame.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/ethInputs_T3_io.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/ethInputs_T3_io.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/ethInputs_T4_frame.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/ethInputs_T4_io.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/ethInputs_T4_io.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/init.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/makefile
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/startUp_Ini_frame.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/startUp_Ini_io.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/startUp_Ini_io.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/applications/CL345_CCUO_App/tasks/task_def
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/defaults/ppc/rules.appl
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/device_cfg/dc_appls.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/device_cfg/dc_ba_init.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/device_cfg/dc_dev_def
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/device_cfg/dc_dev_info.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/device_cfg/dc_dev_ptr_tab.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/device_cfg/dc_device_init.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/device_cfg/dc_dm_init.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/device_cfg/dc_md_init.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/device_cfg/dc_mem_check.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/device_cfg/dc_time_sync_init.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/device_cfg/dc_ts_init.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/device_cfg/dev_entry.c
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/incl/CL345_CCUO_App_bus.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/incl/CL345_CCUO_App_fct.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/incl/ipt_ids.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/incl/toolinfo.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/ipt/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/ipt/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/@CL345_DMS1_CCUO.h1
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/@CL345_DMS1_CCUO.h3
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_CCUO_App.h1
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_CCUO_App.h3
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO.c11
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO_Mvb1.bvl
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO_Mvb1.lst
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/pcterm/CL345_DMS1_CCUO.h3
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/pcterm/CL345_DMS1_CCUO.ini
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/sp_config.png
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/sp_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/sp/sp_config.png
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/sp/sp_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/0d3c85c5-1653-4d6d-9b58-cb2daadc077a.mtx
+Added : /branches/CL345_R2/tools/CCU-O/src/_mt/64f42e99-9ea3-47ed-82b3-04846ce7e200.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/0d3c85c5-1653-4d6d-9b58-cb2daadc077a.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/0d3c85c5-1653-4d6d-9b58-cb2daadc077a.mtx.2
+Added : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/0d3c85c5-1653-4d6d-9b58-cb2daadc077a.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx.3
+Added : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/9becffc5-68b6-4a92-a19f-02db47112a12.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/bcd4c2b3-c0da-4fbc-8490-e0df26ae1a10.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/bcd4c2b3-c0da-4fbc-8490-e0df26ae1a10.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/bcd4c2b3-c0da-4fbc-8490-e0df26ae1a10.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c539470c-a9bc-4917-8835-203aff33d60d.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c539470c-a9bc-4917-8835-203aff33d60d.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c539470c-a9bc-4917-8835-203aff33d60d.mtx.3
+Added : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/e2ffcdac-0a36-4ff4-8bc8-790744a3ac09.mtx.1
+Added : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/ed2dd11c-b5a6-4a97-a039-7b5a71a4d1df.mtx.1
+Added : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/ed2dd11c-b5a6-4a97-a039-7b5a71a4d1df.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/project.mtp.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/project.mtp.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/project.mtp.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/types.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/types.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/types.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/bcd4c2b3-c0da-4fbc-8490-e0df26ae1a10.mtx
+Deleted : /branches/CL345_R2/tools/CCU-O/src/_mt/de471323-c81b-4e86-9169-968044b3b306.mtx
+Added : /branches/CL345_R2/tools/CCU-O/src/_mt/e2ffcdac-0a36-4ff4-8bc8-790744a3ac09.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/makefile
+Modified : /branches/CL345_R2/tools/CCU-O/src/project.mtp
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/AeInputPackerT2/AeInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/AeInputPackerT3/AeInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/AeInputPackerT4/AeInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/AeSystemT2/AeSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/AeSystemT3/AeSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/AeSystemT4/AeSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/ApplicationConfig/ApplicationConfig.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/BaInputPackerT2/BaInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/BaInputPackerT3/BaInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/BaInputPackerT4/BaInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/BaSystemT2/BaSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/BaSystemT3/BaSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/BaSystemT4/BaSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/BgInputPackerT2/BgInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/BgInputPackerT3/BgInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/BgInputPackerT4/BgInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/BgSystemT2/BgSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/BgSystemT3/BgSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/BgSystemT4/BgSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/CcInputPackerT2/CcInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/CcInputPackerT3/CcInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/CcInputPackerT4/CcInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/CcSystemT2/CcSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/CcSystemT3/CcSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/CcSystemT4/CcSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/CtInputPackerT2/CtInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/CtInputPackerT3/CtInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/CtInputPackerT4/CtInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/CtSystemT2/CtSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/CtSystemT3/CtSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/CtSystemT4/CtSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/DiInputPackerT2/DiInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/DiInputPackerT3/DiInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/DiInputPackerT4/DiInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/DiSystemT2/DiSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/DiSystemT3/DiSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/DiSystemT4/DiSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/DsInputPackerT2/DsInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/DsInputPackerT3/DsInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/DsInputPackerT4/DsInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/DsSystemT2/DsSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/DsSystemT3/DsSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/DsSystemT4/DsSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/EthInputsT2/EthInputsT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/EthInputsT3/EthInputsT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/EthInputsT4/EthInputsT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/EthOutputsT2/EthOutputsT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/EthOutputsT3/EthOutputsT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/EthOutputsT4/EthOutputsT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/HvInputPackerT2/HvInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/HvInputPackerT3/HvInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/HvInputPackerT4/HvInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/HvSystemT2/HvSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/HvSystemT3/HvSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/HvSystemT4/HvSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/IlInputPackerT2/IlInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/IlInputPackerT3/IlInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/IlInputPackerT4/IlInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/IlSystemT2/IlSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/IlSystemT3/IlSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/IlSystemT4/IlSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/MvbInputsT2/MvbInputsT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/MvbInputsT3/MvbInputsT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/MvbInputsT4/MvbInputsT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/PiInputPackerT2/PiInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/PiInputPackerT3/PiInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/PiInputPackerT4/PiInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/PiSystemT2/PiSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/PiSystemT3/PiSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/PiSystemT4/PiSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/RaInputPackerT2/RaInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/RaInputPackerT3/RaInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/RaInputPackerT4/RaInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/RaSystemT2/RaSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/RaSystemT3/RaSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/RaSystemT4/RaSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/SiInputPackerT2/SiInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/SiInputPackerT3/SiInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/SiInputPackerT4/SiInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/SiSystemT2/SiSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/SiSystemT3/SiSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/SiSystemT4/SiSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/SwModTest/SwModTest.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TcHostNameSet/TcHostNameSet.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TcHostNameSet/usr_fct_def
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TcInputPackerT2/TcInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TcInputPackerT3/TcInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TcInputPackerT4/TcInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TcSystemT2/TcSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TcSystemT3/TcSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TcSystemT4/TcSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TdInputPackerT2/TdInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TdInputPackerT3/TdInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TdInputPackerT4/TdInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TdSystemT2/TdSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TdSystemT3/TdSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TdSystemT4/TdSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TrInputPackerT2/TrInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TrInputPackerT3/TrInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TrInputPackerT4/TrInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TrSystemT2/TrSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TrSystemT3/TrSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/TrSystemT4/TrSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/WwInputPackerT2/WwInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/WwInputPackerT3/WwInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/WwInputPackerT4/WwInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/WwSystemT2/WwSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/WwSystemT3/WwSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/WwSystemT4/WwSystemT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/XlInputPackerT2/XlInputPackerT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/XlInputPackerT3/XlInputPackerT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/XlInputPackerT4/XlInputPackerT4.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/XlSystemT2/XlSystemT2.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/XlSystemT3/XlSystemT3.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/resources/XlSystemT4/XlSystemT4.h
+
+Revision: 911
+Author: dbhatt
+Date: 12 October 2015 16:05:29
+Message:
+SafeComponents configured according to GDB V9.4.
+----
+Modified : /branches/CL345_R2/src/Forms/Driver_SafeInformation_38.xml
+
+Revision: 910
+Author: arupadhy
+Date: 09 October 2015 16:55:50
+Message:
+Or condition preference change.
+----
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+Modified : /branches/CL345_R2/src/Forms/ControlPanel_1.xml
+Modified : /branches/CL345_R2/src/Forms/ControlPanel_NAC_30.xml
+
+Revision: 909
+Author: dbhatt
+Date: 08 October 2015 16:48:43
+Message:
+
+----
+Modified : /branches/CL345_R2/src/CL345_ProjectSettings.xml
+
+Revision: 908
+Author: mahpatel
+Date: 08 October 2015 15:38:13
+Message:
+MP 08-Oct-15: Removed EnabledForUserGroups from the FPC for the Safetypage transition.
+----
+Modified : /branches/CL345_R2/src/CL345_ForcedPageChanges.xml
+
+Revision: 907
+Author: mahpatel
+Date: 08 October 2015 15:23:25
+Message:
+MP 08-Oct-15: Wordwrap set to true for the Warning grid field.
+----
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+
+Revision: 906
+Author: arupadhy
+Date: 08 October 2015 15:05:50
+Message:
+Changed retuntoinactive value for blank page forcedpagechange transition.
+----
+Modified : /branches/CL345_R2/src/CL345_LogicalNames.xml
+Modified : /branches/CL345_R2/src/CL345_ForcedPageChanges.xml
+
+Revision: 905
+Author: arupadhy
+Date: 07 October 2015 16:46:11
+Message:
+Changed the way filter was written for AlarmGrid on ActiveEvent Page.
+----
+Modified : /branches/CL345_R2/src/CL345_TdsBc.xml
+
+Revision: 904
+Author: arupadhy
+Date: 06 October 2015 16:49:52
+Message:
+Added all tds categories for Active Event Button on Master1.xml and Open Button on ActiveEventList_8.xml.
+----
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+Modified : /branches/CL345_R2/src/Forms/ActiveEventList_8.xml
+
+Revision: 902
+Author: arupadhy
+Date: 05 October 2015 18:15:59
+Message:
+Open button review changes reverted back
+----
+Modified : /branches/CL345_R2/src/Forms/ActiveEventList_8.xml
+
+Revision: 901
+Author: mahpatel
+Date: 05 October 2015 17:59:48
+Message:
+MP 05-Oct-15:
+- Revision updated to 0.2.0.0
+- SafeEvent variables ID updated.
+----
+Modified : /branches/CL345_R2/src/CL345_ProjectSettings.xml
+Modified : /branches/CL345_R2/src/Forms/Driver_SafeInformation_38.xml
+
+Revision: 900
+Author: arupadhy
+Date: 05 October 2015 17:31:12
+Message:
+Color Change
+----
+Modified : /branches/CL345_R2/src/Forms/Station_2.xml
+Modified : /branches/CL345_R2/src/Forms/Station_NAC_33.xml
+
+Revision: 899
+Author: dbhatt
+Date: 05 October 2015 17:06:17
+Message:
+DB: 05/10/2015 Updated according to GDB Export V9.3.
+Manual changes required on top of GDB Export for HMI.
+1. oMmiDriverRequest telegram has two instances in GDB Export
+2. iCCUOStatus1 & iCCUOStatus2 needs to be merged using comma separated source-uri
+3. iPCUStatus21, iPCUStatus23, iPCUStatus27 and iPCUStatus29 needs to be merged using comma separated source-uri
+4. Add TxPeriod safety parameter according to ICD V9.3
+5. TDS Core source telegrams to be removed for comid=220 and comid=224-255
+6. smi value for oHMICtrlSaf need to be changed from 321069105 to 321069106
+7. array-size="0" needs to be changed to array-size="1" in GDB Export V9.3
+----
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/incl/usertypes.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/ipt/tssp/tssp_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO.nsd
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO_Mvb1.map
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/DLU/tcms_data.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/mtpe_config/mtpe_config_01.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_keytable.crc
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_keytable.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_png.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/DLU/tcms_data.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/sp/mtpe_config/mtpe_config_01.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_keytable.crc
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_keytable.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_png.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/c539470c-a9bc-4917-8835-203aff33d60d.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/types.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/logfile.txt
+Modified : /branches/CL345_R2/tools/CCU-O/src/mtpe.log
+Modified : /branches/CL345_R2/tools/CCU-O/src/proj_cfg/tds_proj_tool/mtpe2tds.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_device_id/ifcfg-eth0
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_device_id/ifcfg-eth1
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/ipt/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/ipt/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/sp/sp_config.png
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/sp/sp_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c539470c-a9bc-4917-8835-203aff33d60d.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c539470c-a9bc-4917-8835-203aff33d60d.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c539470c-a9bc-4917-8835-203aff33d60d.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/types.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/types.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/types.mtx.3
+
+Revision: 898
+Author: arupadhy
+Date: 05 October 2015 16:48:29
+Message:
+ForcedPageChange for SigRedundancyMode,Power Down and Blank Screens.
+----
+Modified : /branches/CL345_R2/src/CL345_ForcedPageChanges.xml
+
+Revision: 897
+Author: hkansagra
+Date: 05 October 2015 15:44:33
+Message:
+Used pulse to set ILoginEnterPressed signal.
+----
+Modified : /branches/CL345_R2/src/Forms/DmiDriverId_21.xml
+
+Revision: 896
+Author: arupadhy
+Date: 05 October 2015 14:42:15
+Message:
+Changed default images of Panto in Master1.xml temolate to show Panto down LCB open state.
+----
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+
+Revision: 895
+Author: mahpatel
+Date: 05 October 2015 14:17:51
+Message:
+MP 05-Oct-15: 
+- Resolved the flickering problem.
+- Event ack was not working. Now it's done.
+- Banner disabled for the NAC's.
+- Brightness signal working properly.
+- DMI button visible property set according to requirement(PIC_MODEL).
+----
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+
+Revision: 894
+Author: arupadhy
+Date: 05 October 2015 12:17:27
+Message:
+Added scripts for dynamic support of active cab for Panto Status in Master1.xml.
+----
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+
+Revision: 893
+Author: mahpatel
+Date: 04 October 2015 19:15:07
+Message:
+MP 04-Oct-15: Changes done for Templates/Master1.xml and removed the Enabled for login = Driver from the CL345_TdsBc.xml file.
+----
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+Modified : /branches/CL345_R2/src/CL345_TdsBc.xml
+
+Revision: 892
+Author: mahpatel
+Date: 04 October 2015 16:41:18
+Message:
+MP 04-Oct-15: Changes done in script for CarLabel, AckButton and Warning, that shall not visible on non active cab page.
+----
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+
+Revision: 891
+Author: mahpatel
+Date: 04 October 2015 16:16:01
+Message:
+MP 04-Oct-15: Changes done in script.
+----
+Modified : /branches/CL345_R2/src/Forms/PowerUp_28.xml
+
+Revision: 890
+Author: arupadhy
+Date: 04 October 2015 16:13:19
+Message:
+Changes from board.
+----
+Modified : /branches/CL345_R2/src/CL345_StringIDs.xml
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+Modified : /branches/CL345_R2/src/Forms/Station_2.xml
+Modified : /branches/CL345_R2/src/Forms/Station_NAC_33.xml
+Modified : /branches/CL345_R2/src/CL345_ForcedPageChanges.xml
+Modified : /branches/CL345_R2/src/CarTemplate/DoorIsolation_DMSBA.xml
+
+Revision: 889
+Author: dbhatt
+Date: 03 October 2015 18:04:06
+Message:
+Updated all safe telegram parameters according to agreement with Etienne.
+----
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO.nsd
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO_Mvb1.map
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/DLU/tcms_data.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_keytable.crc
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_keytable.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_png.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/logfile.txt
+Modified : /branches/CL345_R2/tools/CCU-O/src/mtpe.log
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/sp_config.png
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/sp_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/safe_components/sc_001_SafeComponent2.png
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/safe_components/sc_001_SafeComponent2.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/safe_components/sc_002_SafeComponent1.png
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/safe_components/sc_002_SafeComponent1.xml
+
+Revision: 888
+Author: mahpatel
+Date: 03 October 2015 18:01:10
+Message:
+MP 03-Oct-15:
+- Demist status script updated for both Active and Non active cab.
+----
+Modified : /branches/CL345_R2/src/Forms/ControlPanel_1.xml
+
+Revision: 887
+Author: hkansagra
+Date: 03 October 2015 17:15:02
+Message:
+Removed UserID[10] as it is not valid.
+----
+Modified : /branches/CL345_R2/src/Forms/DmiDriverId_21.xml
+
+Revision: 886
+Author: arupadhy
+Date: 03 October 2015 16:44:54
+Message:
+Final changes to ControlPanel_NAC and MainMenuMOp_9.xml
+----
+Modified : /branches/CL345_R2/src/Forms/ControlPanel_NAC_30.xml
+Modified : /branches/CL345_R2/src/Forms/MainMenuMOp_9.xml
+
+Revision: 885
+Author: mahpatel
+Date: 03 October 2015 16:38:06
+Message:
+MP 03-Oct-15:
+- Templates/Master1.xml script updated with new signal for the NAC condition.
+----
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+
+Revision: 884
+Author: arupadhy
+Date: 03 October 2015 16:32:23
+Message:
+Changes to MainMenuMOp_9.xml
+----
+Modified : /branches/CL345_R2/src/CL345.hmi
+Modified : /branches/CL345_R2/src/Forms/MainMenuMOp_9.xml
+
+Revision: 883
+Author: arupadhy
+Date: 03 October 2015 15:56:06
+Message:
+Added Station Panel Button on MainMenu_0.xml and MainMenu_NAC_32.xml
+----
+Modified : /branches/CL345_R2/src/Forms/MainMenu_0.xml
+Modified : /branches/CL345_R2/src/Forms/MainMenu_NAC_32.xml
+
+Revision: 882
+Author: mahpatel
+Date: 03 October 2015 15:53:53
+Message:
+MP 03-Oct-15:
+- New logical name added for the PowerUp page.
+----
+Modified : /branches/CL345_R2/src/CL345_LogicalNames.xml
+
+Revision: 881
+Author: mahpatel
+Date: 03 October 2015 15:43:57
+Message:
+MP 03-Oct-15: FPC signal updated for the SIGRedundancyMode transition.
+----
+Modified : /branches/CL345_R2/src/CL345_ForcedPageChanges.xml
+
+Revision: 880
+Author: arupadhy
+Date: 03 October 2015 15:43:22
+Message:
+Added logic for Demist on ControlPanel_1.xml and ControlPanel_NAC_30.xml
+----
+Modified : /branches/CL345_R2/src/Forms/ActiveEventList_8.xml
+Modified : /branches/CL345_R2/src/CL345.hmi
+Modified : /branches/CL345_R2/src/Forms/ControlPanel_1.xml
+Modified : /branches/CL345_R2/src/Forms/ControlPanel_NAC_30.xml
+Modified : /branches/CL345_R2/src/Forms/MainMenu_NAC_32.xml
+
+Revision: 879
+Author: mahpatel
+Date: 03 October 2015 15:37:49
+Message:
+MP 03-Oct-15: Script added for the PowerUp_28.xml page.
+----
+Modified : /branches/CL345_R2/src/Forms/PowerUp_28.xml
+
+Revision: 878
+Author: mahpatel
+Date: 03 October 2015 15:34:30
+Message:
+MP 03-Oct-15:
+- Line Voltage script updated for Master1.xml template.
+----
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+
+Revision: 877
+Author: arupadhy
+Date: 03 October 2015 13:30:27
+Message:
+Changed the method to check for active cab - using iActiveCab and safe signal both.
+----
+Modified : /branches/CL345_R2/src/CL345_LogicalNames.xml
+Modified : /branches/CL345_R2/src/Forms/InhibitDoors_18.xml
+Modified : /branches/CL345_R2/src/Forms/Station_2.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_PMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_DMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_DMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS1AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS1BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS2AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS2BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS3AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS3BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_PMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_TSWAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_TSWBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/DoorIsolation_DMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_DMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_DMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/DoorIsolation_DMSAB.xml
+
+Revision: 875
+Author: mahpatel
+Date: 02 October 2015 20:07:48
+Message:
+MP 02-Oct-15: 
+- Demist signal logical name updated.
+- Removed unused tds category.
+----
+Modified : /branches/CL345_R2/src/Forms/Event_11.xml
+Modified : /branches/CL345_R2/src/Forms/ControlPanel_1.xml
+Modified : /branches/CL345_R2/src/CL345_TdsBc.xml
+
+Revision: 874
+Author: dbhatt
+Date: 02 October 2015 20:04:25
+Message:
+Changed safety parameters according to interface decided between CCUS and HMIS.
+----
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_CCUO.vcdl
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO.nsd
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO_Mvb1.map
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/DLU/tcms_data.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/mtpe_config/mtpe_config_01.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_keytable.crc
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_keytable.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_png.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/export/TDS_CORE_CFG_1042.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/export/tdsinfrastruct.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/DLU/tcms_data.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/sp/mtpe_config/mtpe_config_01.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_keytable.crc
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_keytable.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_png.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/logfile.txt
+Modified : /branches/CL345_R2/tools/CCU-O/src/mtpe.log
+Modified : /branches/CL345_R2/tools/CCU-O/src/project.tre
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx.3
+
+Revision: 873
+Author: mahpatel
+Date: 02 October 2015 18:59:15
+Message:
+MP 02-Oct-15: 
+- Implementation done for review comments given for Event_11.xml page.(Review ID #83 in review board.)
+- Also did changes for ControlPanel_1.xml according to comments. (Review ID #82 in review board.)
+----
+Modified : /branches/CL345_R2/src/Forms/Event_11.xml
+Modified : /branches/CL345_R2/src/Forms/ControlPanel_1.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_DMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_DMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_MS1AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_MS1BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_MS2AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_MS2BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_MS3AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_MS3BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_PMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_PMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_TSWAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_TSWBA.xml
+
+Revision: 872
+Author: arupadhy
+Date: 02 October 2015 17:16:03
+Message:
+Implemented Comments for ActiveEventList_8.xml.
+----
+Modified : /branches/CL345_R2/src/CL345_StringIDs.xml
+Modified : /branches/CL345_R2/src/Forms/ActiveEventList_8.xml
+
+Revision: 870
+Author: mahpatel
+Date: 02 October 2015 14:22:25
+Message:
+MP 02-Oct-15: 
+- Safety variable ID updated according to new MTPE project build with new ipt_config.xml v9.1.
+----
+Modified : /branches/CL345_R2/src/Forms/Driver_SafeInformation_38.xml
+
+Revision: 869
+Author: mahpatel
+Date: 02 October 2015 14:13:05
+Message:
+MP 02-Oct-15: 
+- Added missing changes for CL345_LogicalNameMapping.xml
+----
+Modified : /branches/CL345_R2/src/CL345_LogicalNameMapping.xml
+
+Revision: 868
+Author: mahpatel
+Date: 02 October 2015 14:08:08
+Message:
+MP 02-Oct-15: 
+- Logical name added for the Demist signal and removed it from LogicalNameMapping file.
+- Inkscape file updated to create new icon.
+- Demist button script updated.
+----
+Modified : /branches/CL345_R2/src/CL345_LogicalNames.xml
+Modified : /branches/CL345_R2/src/CL345_ProjectSettings.xml
+Modified : /branches/CL345_R2/src/Forms/ControlPanel_1.xml
+Modified : /branches/CL345_R2/src/Resources/IconSetlatest(Different Layers).svg
+
+Revision: 867
+Author: arupadhy
+Date: 02 October 2015 14:02:54
+Message:
+Implemented review comments
+----
+Modified : /branches/CL345_R2/src/Forms/Station_2.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_PMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_DMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_DMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS1AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS1BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS2AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS2BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS3AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS3BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_PMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_TSWAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_TSWBA.xml
+
+Revision: 866
+Author: arupadhy
+Date: 01 October 2015 17:42:43
+Message:
+Comments implemented for ControlPanel_NAC_30.xml and Station_2.xml Screens
+----
+Modified : /branches/CL345_R2/src/Forms/Station_2.xml
+Modified : /branches/CL345_R2/src/Forms/ControlPanel_NAC_30.xml
+Added : /branches/CL345_R2/src/Images/Indicator_Doors_Blank_Grey_126x63.png
+Added : /branches/CL345_R2/src/Images/Indicator_Doors_Blankfield_Grey_126x63.png
+
+Revision: 865
+Author: mahpatel
+Date: 01 October 2015 14:36:34
+Message:
+MP 01-Oct-15: 
+- Filter changed for the Warning grid ( from Maintainer category to A2 category)
+- New warning grid added for the Category B event.
+----
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+
+Revision: 864
+Author: mahpatel
+Date: 01 October 2015 13:45:53
+Message:
+MP 01-Oct-15: Templates/Master1.xml used in the SafeInformation Page instead of Templates/Master1.xml.
+----
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+Modified : /branches/CL345_R2/src/CL345.hmi
+Modified : /branches/CL345_R2/src/Forms/Driver_SafeInformation_38.xml
+
+Revision: 863
+Author: dbhatt
+Date: 01 October 2015 12:13:30
+Message:
+DB: 01/10/2015 Updated MTPE code according to GDB version 9.1
+----
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_CCUO.vcdl
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/incl/usertypes.h
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/ipt/tssp/tssp_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO.nsd
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/mvb/CL345_DMS1_CCUO_Mvb1.map
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/DLU/tcms_data.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/mtpe_config/mtpe_config_01.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_keytable.crc
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_keytable.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/tcms_data_png.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/export/TDS_CORE_CFG_1042.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/export/tdsinfrastruct.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/DLU/ipt_config.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/DLU/tcms_data.dl2
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/mp/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/mp/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/sp/mtpe_config/mtpe_config_01.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_keytable.crc
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_keytable.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/tcms_data_png.tar
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/c539470c-a9bc-4917-8835-203aff33d60d.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/types.mtx
+Modified : /branches/CL345_R2/tools/CCU-O/src/logfile.txt
+Modified : /branches/CL345_R2/tools/CCU-O/src/mtpe.log
+Modified : /branches/CL345_R2/tools/CCU-O/src/proj_cfg/tds_proj_tool/mtpe2tds.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/project.tre
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/ipt/ipt_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/CL345_DMS1_CCUO/ipt/ipt_config_full.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/sp/sp_config.png
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMITMS/ECP-USB/tcms_data/sp/sp_config.xml
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/2a1db1a4-cf07-4f7e-a743-d90161d1277f.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/437d53e0-6489-4f03-aef5-7d38f97b86d9.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c3d57fd9-e460-4533-9ee3-b56b62ef169d.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c539470c-a9bc-4917-8835-203aff33d60d.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c539470c-a9bc-4917-8835-203aff33d60d.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/c539470c-a9bc-4917-8835-203aff33d60d.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/types.mtx.1
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/types.mtx.2
+Modified : /branches/CL345_R2/tools/CCU-O/src/_mt/backup/types.mtx.3
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/ppc_version.png
+Modified : /branches/CL345_R2/tools/CCU-O/src/HMISIG/ECP-USB/tcms_data/sp/ppc_version.xml
+
+Revision: 862
+Author: mahpatel
+Date: 01 October 2015 12:07:19
+Message:
+MP 01-Oct-15: Implementation done according to Review comments for ControlPanel_1.xml. (Review request #82 in review board)
+----
+Modified : /branches/CL345_R2/src/Forms/ControlPanel_1.xml
+Modified : /branches/CL345_R2/src/Resources/IconSetlatest(Different Layers).svg
+Added : /branches/CL345_R2/src/Images/PantoDown_LCBClosed_41x41.png
+Added : /branches/CL345_R2/src/Images/halo_Indicator_Warning_Yellow_20x24.png
+Added : /branches/CL345_R2/src/Images/halo_Indicator_Warning_lightGrey_20x24.png
+
+Revision: 860
+Author: mahpatel
+Date: 01 October 2015 10:08:51
+Message:
+MP 01-Oct-15: Implementation done according to Review comments.
+----
+Modified : /branches/CL345_R2/src/CL345_LogicalNames.xml
+Modified : /branches/CL345_R2/src/Templates/Master1.xml
+Modified : /branches/CL345_R2/src/CL345_TdsBc.xml
+Added : /branches/CL345_R2/src/Images/Button_Raised_ Ack_Red_107x65.png
+
+Revision: 859
+Author: arupadhy
+Date: 30 September 2015 13:37:30
+Message:
+Added new vehicles for Configuration Car Template(Active Events Screen).
+
+----
+Added : /branches/CL345_R2/src/CarTemplate/Configuration_MS1BA.xml
+Added : /branches/CL345_R2/src/CarTemplate/Configuration_MS2AB.xml
+Added : /branches/CL345_R2/src/CarTemplate/Configuration_TSWAB.xml
+
+Revision: 858
+Author: mahpatel
+Date: 30 September 2015 11:58:33
+Message:
+MP 30-Sept: 
+- New Image added for the Ack event. (Button_Raised_ Red_Ack_107x65.png)
+----
+Added : /branches/CL345_R2/src/Images/Button_Raised_ Red_Ack_107x65.png
+
+Revision: 857
+Author: arupadhy
+Date: 30 September 2015 11:47:50
+Message:
+Added new vehicles for Configuration Car Template(Active Events Screen).
+
+Changed the static number of cars to virtual car numbers.
+----
+Modified : /branches/CL345_R2/src/CarTemplate/cartemplates_nexgen.ctp
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_DMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_DMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_MS1AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_MS2BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_MS3AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_MS3BA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_PMSAB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_PMSBA.xml
+Modified : /branches/CL345_R2/src/CarTemplate/Configuration_TSWBA.xml
+
+Revision: 849
+Author: hkansagra
+Date: 29 September 2015 18:01:50
+Message:
+Validation signal updated according to new IPTconfig
+----
+Modified : /branches/CL345_R2/src/CL345_LogicalNames.xml
+
+Revision: 848
+Author: hkansagra
+Date: 29 September 2015 17:57:53
+Message:
+Applied scripts for widgets in Maint.xml
+----
+Modified : /branches/CL345_R2/src/Templates/Maint.xml
+
+Revision: 847
+Author: arupadhy
+Date: 29 September 2015 17:55:08
+Message:
+Added forced page change for Blank Page (with logical name entry)
+----
+Modified : /branches/CL345_R2/src/CL345_LogicalNames.xml
+Modified : /branches/CL345_R2/src/Forms/Station_2.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_MS2AB.xml
+Modified : /branches/CL345_R2/src/CarTemplate/StationView_TSWAB.xml
+Modified : /branches/CL345_R2/src/CL345_ForcedPageChanges.xml
+
+Revision: 846
+Author: hkansagra
+Date: 29 September 2015 14:21:53
+Message:
+Script added to write ID in UserID IP using Array.
+Set ID length 10.
+----
+Modified : /branches/CL345_R2/src/CL345_LogicalNames.xml
+Modified : /branches/CL345_R2/src/Forms/DmiDriverId_21.xml
+
